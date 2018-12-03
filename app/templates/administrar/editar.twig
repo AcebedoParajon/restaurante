@@ -1,0 +1,37 @@
+{% extends 'overall/layout' %}
+{% block appBody %}
+    <div class="container">
+    	<h4 class="tex-center">Editar plato</h4>
+        <form role="form" id="administrar_form">
+        	<div class="form-group">
+				<input type="hidden" name="id_platos" value="{{ data.id_platos }}" />
+				<label for="">Categoria</label>
+				<select name="categoria">
+					<option value="entrantes"{% if data.categoria == 'entrantes' %}selected{% endif %}>entrante</option>
+					<option value="carnes"{% if data.categoria == 'carnes' %}selected{% endif %}>carnes</option>
+					<option value="mariscos"{% if data.categoria == 'mariscos' %}selected{% endif %}>mariscos</option>
+					<option value="pescados"{% if data.categoria == 'pescados' %}selected{% endif %}>pescados</option>
+					<option value="parrillada mariscos pescados"{% if data.categoria == 'parrillada mariscos pescados' %}selected{% endif %}>parrillada mariscos pescados</option>
+					<option value="cuchara"{% if data.categoria == 'cuchara' %}selected{% endif %}>cuchara</option>
+					<option value="menucasa"{% if data.categoria == 'menucasa' %}selected{% endif %}>menucasa</option>
+				</select><br>
+				<label for="">Plato</label>
+				<input type="text" class="form-control" value="{{ data.plato }}" name="plato">
+				<label for="">precio</label>
+				<input type="text" class="form-control" value="{{ data.precio }}" name="precio">
+				<label for="">descripcion</label>
+				<textarea rows="10" class="form-control" name="descripcion"  onkeypress="event.cancelBubble=true;">{{ data.descripcion }}</textarea>
+			</div>
+            <div class="form-group">
+                <button type="button" class="btn btn-success" id="administrar">Enviar</button>
+                <a href="administrar/" class="btn btn-primary">Atrás</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}
+{% block appFooter %}
+	<script src="views/app/plugins/js/jquery-confirm.min.js"></script>
+    <script src="views/app/js/administrar/editar.js"></script>
+
+ 
+{% endblock %}

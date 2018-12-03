@@ -1,0 +1,42 @@
+{% extends 'overall/layout' %}
+{% block appBody %}
+    
+<div class="container">
+    <nav class="nav navbar navbar-fixed-top text-center">
+        <a href="administrar/crear" class="btn btn-success">+ Crear nuevo</a>
+        <a href="administrar/newpass" class="btn btn-info">Cambiar contraseña</a>
+        <a href="logout/" class="btn btn-primary">Cerrar sesión</a>
+    </nav>
+        <div class="col-xs-12 col-md-12 col-lg-12 section">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>Categoria</th>
+                    
+                        <th>Plato</th>
+                    
+                        <th>Precio</th>
+                    
+                        <th>Descripción</th>
+                    
+                        <th>Acciones</th> 
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for d in data if false != data %}
+                    <tr>
+                        <td>{{ d.categoria }}</td>
+                        <td>{{ d.plato }}</td>
+                        <td>{{ d.precio }}€</td>
+                        <td>{{ d.descripcion }}</td>
+                        <td>
+                            <a href="administrar/editar/{{ d.id_platos }}">Editar</a>
+                            <a href="administrar/eliminar/{{ d.id_platos }}">Eliminar</a>
+                        </td> 
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+</div>
+{% endblock %}

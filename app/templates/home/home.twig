@@ -1,0 +1,889 @@
+{% extends 'overall/layout' %}
+{% block appBody %}
+   <!-- Header -->
+        <header id="header">
+
+            <!-- Top nav -->
+            <div id="top-nav">
+                <div class="container">
+
+                    <!-- logo -->
+                    <div class="logo">
+                        <a href="#"><img src="views/app/images/logocampanu.png" alt="logo"></a>
+                    </div>
+                    <!-- logo -->
+                    <div class="xs-hidden">
+                        <div class="home-content">
+                            <h1 class="hidden-xs cabecera text-center">El Campanu Sidrería marisquería</h1>
+                        </div>
+                    </div>
+
+                    <!-- Mobile toggle -->
+                    <button class="navbar-toggle">
+                        <span></span>
+                    </button>
+                    <!-- Mobile toggle -->
+
+                    <!-- social links -->
+                    <ul class="social-nav hidden-xs">
+                        <li><a href="https://www.facebook.com/elcampanu"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/elcampanu"><i class="fa fa-twitter"></i></a></li>
+                    </ul>
+                <!-- /social links -->
+
+                </div>
+            </div>
+            <!-- /Top nav -->
+
+            <!-- Bottom nav -->
+            <div id="bottom-nav">
+                <div class="container">
+                <nav id="nav">
+
+                    <!-- nav -->
+                    <ul class="main-nav nav navbar-nav">
+                        <li><a href="index.php">Inicio</a></li>
+                        <li><a href="#about">Un poco de historia</a></li>
+                        <li><a href="#menu">Nuestros platos</a></li>
+                        {# <li><a href="index.html#reservation">Reservas</a></li> #}
+                        <!-- <li><a href="index.html#gallery">Gallery</a></li> -->
+                        <li><a href="#restaurantes">Restaurantes</a></li>
+                        <li><a href="#reservation">Contacto y reservas</a></li>
+                    </ul>
+                    <!-- /nav -->
+
+                    <!-- button nav -->
+                    <ul class="cta-nav">
+                        <li><a href="#reservation" class="main-button">Reserve</a></li>
+                    </ul>
+                    <!-- button nav -->
+
+                    <!-- contact nav -->
+                    <ul class="contact-nav nav navbar-nav">
+                        {# <li><a href="tel:0455481497"><i class="fa fa-phone"></i> 045-548-14-97</a></li> #}
+                        <li><i class="fa fa-map-marker"></i> Ribadesella, Cangas de Onís, Oviedo</li>
+                    </ul>
+                    <!-- contact nav -->
+
+                </nav>
+                </div>
+            </div>
+            <!-- /Bottom nav -->
+
+
+        </header>
+        <!-- /Header -->
+
+        <!-- Home -->
+        <div id="home" class="banner-area">
+
+            <!-- Backgound Image -->
+            <div class="bg-image bg-parallax overlay" style="background-image:url(views/app/images/fondo1.jpg)"></div>
+            <!-- /Backgound Image -->
+
+            <div class="home-wrapper">
+
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <div class="home-content">
+                        <h2>Sidrería el Campanu</h2>
+                        <h4 class="white-text lead">Restaurante marisquería. Carnes a la parrilla</h4>
+                        <a href="#menu"><button class="main-button">Nuestros platos</button></a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <!-- /Home -->
+
+        <!-- About -->
+        <div id="about" class="section">
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <!-- section header -->
+                    <div class="section-header text-center">
+                        <h4 class="sub-title">Sobre nosotros</h4>
+                        <h2 class="title">Restaurantes El Campanu</h2>
+                    </div>
+                    <!-- /section header -->
+
+                    <!-- about content -->
+                    <div class="col-md-5">
+                        <h4 class="lead">Bienvenidos a El Campanu. Desde 1998, ofreciendo platos tradicionales de la máxima calidad.</h4>
+                    </div>
+                    <!-- /about content -->
+
+                    <!-- about content -->
+                    <div class="col-md-7">
+                        <p>En José Manuel Mori Cuesta 'El Marqués', propietario de los restaurantes El Campanu de Oviedo, Cangas de Onís y Ribadesella, se aúnan dos pasiones; la pesca deportiva y la gastronomía. Criado a orillas del Sella, junto al Puente Romano, en una familia de gran tradición pesquera, aprendió desde pequeñín de los mejores y más míticos pescadores asturianos.<br>
+
+                        José Manuel fundó El Campanu de La Venta, Cangas de Onís, en 1998, establecimiento que se traslada en 2002 a Ribadesella. En 2009 vuelve a abrir sus puertas en Cangas, esta vez junto al Puente Romano. En 2013 se inaugura El Campanu de Oviedo, en el centro mismo del casco antiguo de la capital asturiana. Organizador de multitud de jornadas gastronómicas por toda España, Mori es uno de los grandes divulgadores de la gastronomía asturiana fuera de las fronteras del Principado y sus restaurantes han sido distinguidos con el sello de la Cofradía de Pescadores “Virgen de Guía” de Ribadesella, garantía de pescado fresco y de calidad.<br>
+
+                        Probablemente el número uno de los pescadores de salmón asturianos, José Manuel ha capturado hasta en cinco ocasiones el campanu, el primer salmón de la temporada que se pesca en los ríos asturianos, y en dos ocasiones más en la vecina Cantabria. Ganchero de lujo para importantes personalidades nacionales e internacionales de visita deportiva por los ríos asturianos, es además un gran coleccionista de utensilios de pesca antiguos, que expone en sus tres restaurantes.</p>
+                        <br>
+                        <h4>Campanu <small>(el salmón)</small></h4>
+                        <p>Se conoce como campanu al primer salmón que se pesca en los ríos asturianos y cántabros al comienzo de la campaña. En general, se usa esa denominación para el primer salmón de cada uno de los ríos, pero el que recibe el mayor protagonismo es el primero que se pesca en la temporada, sea del río que sea. La excepcionalidad del campanu hace que su subasta pública alcance precios de venta muy elevados.<br>
+
+                        Se le conoce con este peculiar nombre dado que hace años (dicen que desde la Edad Media), cuando se pescaba el primer salmón todas las iglesias hacían repicar sus campanas para dar a conocer el hecho.</p>
+                    </div>
+                    <!-- /about content -->
+
+                    <!-- Gallery Slider -->
+                    <div class="col-md-12">
+                        <div id="Gallery" class="owl-carousel owl-theme">
+
+                            <!-- single column -->
+                            <div class="Gallery-item">
+
+                                <!-- single image -->
+                                <div class="Gallery-img" style="background-image:url(views/app/images/twitter6.jpg)"></div>
+                                <!-- /single image -->
+
+                            </div>
+                            <!-- single column -->
+
+                            <!-- single column -->
+                            <div class="Gallery-item">
+
+                                <!-- single image -->
+                                <div class="Gallery-img" style="background-image:url(views/app/images/twitter2.jpg)"></div>
+                                <!-- /single image -->
+
+                                <!-- single image -->
+                                <div class="Gallery-img" style="background-image:url(views/app/images/twitter3.jpg)"></div>
+                                <!-- /single image -->
+
+                            </div>
+                            <!-- single column -->
+
+                            <!-- single column -->
+                            <div class="Gallery-item">
+
+                                <div class="item-column">
+                                    <!-- single image -->
+                                    <div class="Gallery-img" style="background-image:url(views/app/images/twitter4.jpg)"></div>
+                                    <!-- /single image -->
+
+                                    <!-- single image -->
+                                    <div class="Gallery-img" style="background-image:url(views/app/images/twitter5.jpg)"></div>
+                                    <!-- /single image -->
+                                </div>
+
+                                <div class="item-column">
+                                    <!-- single image -->
+                                    <div class="Gallery-img" style="background-image:url(views/app/images/facebook1.jpg)"></div>
+                                    <!-- /single image -->
+
+                                    <!-- single image -->
+                                    <div class="Gallery-img" style="background-image:url(views/app/images/facebook2.jpg)"></div>
+                                    <!-- /single image -->
+                                </div>
+
+                            </div>
+                            <!-- /single column -->
+
+                        </div>
+                    </div>
+                    <!-- /Gallery Slider -->
+
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /About -->
+
+
+        <!-- Menu -->
+        <div id="menu" class="section">
+
+            <!-- Backgound Image -->
+            <div class="bg-image bg-parallax overlay" style="background-image:url(views/app/images/fondopescados.jpg)"></div>
+            <!-- /Backgound Image -->
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <div class="section-header text-center">
+                        <h4 class="sub-title">Descubre</h4>
+                        <h2 class="title white-text">Nuestros platos</h2>
+                    </div>
+
+                    <!-- menu nav -->
+                    <ul class="menu-nav">
+                      <li class="active"><a data-toggle="tab" href="#menu1">Entrantes</a></li>
+                      <li><a data-toggle="tab" href="#menu2">Pescados y mariscos</a></li>
+                      <li><a data-toggle="tab" href="#menu3">Carnes</a></li>
+                      <li><a data-toggle="tab" href="#menu4">De cuchara</a></li>
+                      <li><a data-toggle="tab" href="#menu5">Menú de la casa</a></li>
+                    </ul>
+                    <!-- /menu nav -->
+
+                    <!-- menu content -->
+                    <div id="menu-content" class="tab-content">
+                            
+                        <!-- menu1 -->
+                        <div id="menu1" class="tab-pane fade in  active">
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'entrantes' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}.</p>
+                                    </div>
+                                </div>
+                                {% endfor %}                        
+                            </div>
+                            {% endfor %}
+
+                            {# Botón ver más #}
+                            <div id="vermas" class="row hidden text-center">
+                                <div class="col-md-12">
+                                    <input type="button" value="Ver más" onclick="vermas()" class="main-button">
+                                </div>
+                            </div>
+
+                            {# Botón ver menos #}
+                            <div id="vermenos" class="row hidden text-center">
+                                <div class="col-md-12">
+                                    <input type="button" value="Ver menos" onclick="vermenos()" class="main-button">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /menu1 -->
+
+                         <!-- menu2 -->
+                        <div id="menu2" class="tab-pane fade in">
+                            <div class="col-md-12 text-center">
+                                <h3>Mariscos</h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'mariscos' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                            <!-- FIN MARISCOS -->
+
+                            <div class="col-md-12 text-center">
+                                <h3>Parrilladas de pescados y mariscos</h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'parrillada mariscos pescados' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                            <!-- FIN PARRILLADAS -->
+
+                            <div class="col-md-12 text-center">
+                                <h3>Pescados<small> Precios según lonja</small></small></h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'pescados' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+                            <!-- FIN PESCADOS -->
+
+                        </div> 
+                        <!-- FIN menu2 --> 
+
+                        <!-- Menu 3 Carnes -->
+                        <div id="menu3" class="tab-pane fade in">
+                            <div class="col-md-12 text-center">
+                                <h3>Carnes</h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'carnes' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        <!-- FIN Menu 3 -->
+
+                        <!-- Menu 4 cuchara -->
+                        <div id="menu4" class="tab-pane fade in">
+                            <div class="col-md-12 text-center">
+                                <h3>De Cuchara</h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'cuchara' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        <!-- FIN Menu 4 cuchara -->
+
+                        <!-- Menu 5 menú de la casa -->
+                        <div id="menu5" class="tab-pane fade in">
+                            <div class="col-md-12 text-center">
+                                <h3>Menú de la casa</h3>
+                            </div>
+                            {% for row in datos|batch(2) %}
+                            <div class="row">
+                                {% for d in row if d.categoria == 'menucasa' %}
+                                <div class="col-md-6">
+                                    <div class="single-dish">
+                                        <div class="single-dish-heading">
+                                            <h4 class="name">{{ d.plato }}</h4>
+                                            <h4 class="price">{{ d.precio }}€</h4>
+                                        </div>
+                                        <p>{{ d.descripcion }}</p>
+                                    </div>
+                                </div>
+                                {% endfor %}
+                            </div>
+                            {% endfor %}
+
+                        </div>
+                        <!-- FIN Menu 5 menú de la casa -->
+
+                    </div>
+                    <!-- /menu content -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /Menu -->
+
+        {# <!-- Reservation -->
+        <div id="reservation" class="section">
+
+            <!-- Backgound Image -->
+            <div class="bg-image" style="background-image:url(views/app/images/fondo4.jpg)"></div>
+            <!-- /Backgound Image -->
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <!-- reservation form -->
+                    <div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                        <form class="reserve-form row">
+                            <div class="section-header text-center">
+                                <h4 class="sub-title">Reservation</h4>
+                                <h2 class="title white-text">Book Your Table</h2>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input class="input" type="text" placeholder="Name" id="name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="phone">Phone:</label>
+                                    <input class="input" type="tel" placeholder="Phone" id="phone">
+                                </div>
+                                <div class="form-group">
+                                    <label for="date">Date:</label>
+                                    <input class="input" type="text" placeholder="MM/DD/YYYY" id="date">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="email">Email:</label>
+                                    <input class="input" type="email" placeholder="Email" id="email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="number">Number of Guests:</label>
+                                    <select class="input" id="number">
+                                        <option>1 Person</option>
+                                        <option>2 People</option>
+                                        <option>3 People</option>
+                                        <option>4 People</option>
+                                        <option>5 People</option>
+                                        <option>6 People</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                  <label for="time">Time:</label>
+                                  <input class="input" type="text" placeholder="HH:MM" id="time">
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <button class="main-button">Book Now</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <!-- /reservation form -->
+
+                    <!-- opening time -->
+                    <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                        <div class="opening-time row">
+                            <div class="section-header text-center">
+                                <h2 class="title white-text">Opening Time</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <h4 class="day">Lunes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Martes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Miércoles</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Jueves</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Viernes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Sábado</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Domingo</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /opening time -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /Reservation --> #}
+
+        <!-- Events -->
+        <div id="restaurantes" class="section">
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <!-- section header -->
+                    <div class="section-header text-center">
+                        <h4 class="sub-title">Visítanos en</h4>
+                        <h2 class="title">Nuestros restaurantes</h2>
+                    </div>
+                    <!-- /section header -->
+
+                    <!-- single event -->
+                    <div class="col-md-6">
+                        <div class="event">
+                            {# <div class="event-img">
+                                 <img src="./img/event01.jpg" alt=""> 
+                                <div class="event-day">
+                                     <span>08<br>July</span> 
+                                </div>
+                            </div> #}
+                            <div class="event-content">
+                                <p><a href="tel:+34985860358"><i class="fa fa-phone"></i>985 86 03 58</a></p>
+                                <h3><a href="#">En Ribadesella</a></h3>
+                                <p>Nuestro restaurante está emplazado en un lugar envidiable, en la Calle Marqueses de Argüelles nº9, con vistas al puerto de Ribadesella, nos aseguramos que los pescados y mariscos del Cantábrico lleguen a nuestras cocinas con la máxima calidad y frescura.<br>
+
+                                Ribadesella, territorio colonizado desde tiempos prehistóricos, fue fundada por Alfonso X el Sabio. Fue uno de los principales puertos asturianos del siglo XIX.<br>
+​
+                                En la actualidad el concejo destaca por la variedad turística que ofrece a los visitantes sobretodo en lo que a naturaleza se refiere.</p>
+                                <a href="#ribadesella" class="main-button" data-toggle="modal">Ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /single event -->
+
+                    <!-- single event -->
+                    <div class="col-md-6">
+                        <div class="event">
+                            {# <div class="event-img">
+                                <img src="./img/event02.jpg" alt="">
+                                <div class="event-day">
+                                    <span>08<br>July</span>
+                                </div>
+                            </div> #}
+                            <div class="event-content">
+                                <p><a href="tel:+34985947446"><i class="fa fa-phone"></i> 985 94 74 46</a></p>
+                                <h3><a href="#">En Cangas de Onís.</a></h3>
+                                <p>Se encuentra situado al pie del puente romano, en la calle peatonal que da acceso a subir caminando hacia el puente de Cangas de Onis, en un entorno incomparable podrás disfrutar de toda la calidad de nuestros pescados y mariscos.<br>
+
+                                La población de Cangas de Onís está asentada en el entronque de los ríos Sella y Güeña.<br> 
+
+                                La ciudad de Cangas de Onís fue capital del Reino de Asturias hasta el año 774. En este término municipal tuvo lugar en el año 722 la Batalla de Covadonga, donde Don Pelayo venció a las fuerzas musulmanas y consolidó un poder y prestigio que le permitió permanecer independiente y fundar el primer reino cristiano.</p>
+                                <a href="#cangas" class="main-button" data-toggle="modal">Ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /single event -->
+
+                    <!-- single event -->
+                    <div class="col-md-6">
+                        <div class="event">
+                            {# <div class="event-img">
+                                <img src="./img/event02.jpg" alt="">
+                                <div class="event-day">
+                                    <span>08<br>July</span>
+                                </div>
+                            </div> #}
+                            <div class="event-content">
+                                <p><a href="tel:+34985215193"><i class="fa fa-phone"></i>985 21 51 93</a></p>
+                                <h3><a href="#">En Oviedo.</a></h3>
+                                <p>En el centro de Oviedo, en la Calle Jesús nº1, está nuestro restaurante más nuevo. En un local de varias plantas, donde podrás disfrutar de nuestra terraza.<br>
+
+                                Oviedo (Uviéu o Uvieo en asturiano) es una ciudad de origen medieval (siglo VIII) y es capital del Principado de Asturias. Además es el centro comercial, religioso, administrativo y universitario de la región. Ostenta los títulos de «muy noble, muy leal, benemérita, invicta, heroica y buena» que figuran en el escudo.​</p>
+                                <a href="#oviedo" class="main-button" data-toggle="modal">Ver mapa</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /single event -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /Events -->
+{# 
+        <!-- Contact -->
+        <div id="contact" class="section">
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <div class="col-md-6">
+                        <div class="section-header">
+                            <h4 class="sub-title">LLámanos</h4>
+                            <h2 class="title">Realiza tu reserva</h2>
+                        </div>
+                        <div class="contact-content">
+                            <p>Para realizar una reserva llama al teléfono del restaurante que prefieras:</p>
+                            <p>Ribadesella: <a href="tel:+34985860358">985 86 03 58</a></p>
+                            <p>Cangas de onís: <a href="tel:+34985947446">985 94 74 46</a></p>
+                            <p>Oviedo: <a href="tel:+34985215193">985 21 51 93</a></p>
+                            <ul class="list-inline">
+                                <li><p>Síguenos en:</p></li>
+                                <li><a href="htpps://www.facebook.com/elcampanu"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="htpps://twitter.com/elcampanu"><i class="fa fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="opening-time">
+                            <div class="section-header text-center">
+                                <h2 class="title white-text">Horarios</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <h4 class="day">Lunes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Martes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Miércoles</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Jueves</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Viernes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Sábado</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Domingo</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+        </div>
+        <!-- Contact --> #}
+
+        <!-- Reservation -->
+        <div id="reservation" class="section">
+
+            <!-- Backgound Image -->
+            <div class="bg-image" style="background-image:url(views/app/images/fondo4.jpg)"></div>
+            <!-- /Backgound Image -->
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <!-- reservation form -->
+                    <div class="col-md-6 col-md-offset-1 col-sm-10 col-sm-offset-1">
+                        <div class="reserve-form row">
+                            <div class="section-header text-center">
+                                <h4 class="sub-title">Reservas</h4>
+                                <h2 class="title white-text">Reserve su mesa</h2>
+                                <p>Para realizar la reserva llame al teléfono del restaurante que prefiera:</p>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <p>Ribadesella: <a href="tel:+34985860358"> 985 86 03 58</a></p>
+                                <p>Cangas de onís: <a href="tel:+34985947446"> 985 94 74 46</a></p>
+                                <p>Oviedo: <a href="tel:+34985215193"> 985 21 51 93</a></p>
+                                <ul class="list-inline">
+                                    <li><p>Síguenos en:</p></li>
+                                    <li><a href="htpps://www.facebook.com/elcampanu"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="htpps://twitter.com/elcampanu"><i class="fa fa-twitter"></i></a></li>
+                                </ul>
+                            </div>
+
+                            <div class="col-md-12 text-center">
+                                <button class="main-button">Haga su reserva</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- /reservation form -->
+
+                    <!-- opening time -->
+                    <div class="col-md-4 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                        <div class="opening-time row">
+                            <div class="section-header text-center">
+                                <h2 class="title white-text">Horario</h2>
+                            </div>
+                            <ul>
+                                <li>
+                                    <h4 class="day">Lunes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Martes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Miércoles</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Jueves</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Viernes</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Sábado</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                                <li>
+                                    <h4 class="day">Domingo</h4>
+                                    <h4 class="hours">8:00 am – 11:00 pm</h4>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- /opening time -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </div>
+        <!-- /Reservation -->
+
+        <!-- Footer -->
+        <footer id="footer">
+
+            <!-- container -->
+            <div class="container">
+
+                <!-- row -->
+                <div class="row">
+
+                    <!-- copyright -->
+                    <div class="col-md-6">
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                        <span class="copyright">Copyright @{{ "now"|date("Y") }} El Campanu <br> Esta página está modificada con <i class="fa fa-heart-o" aria-hidden="true"></i> por Jose Luis Acebedo Parajón a través de las plantillas de <a href="https://colorlib.com" target="_blank">Colorlib</a></span>
+                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    </div>
+                    <!-- /copyright -->
+
+                    <!-- footer nav -->
+                    <div class="col-md-6">
+                        <nav class="footer-nav">
+                            <a href="index.php">Inicio</a>
+                            <a href="#about">Historia</a>
+                            <a href="#menu">Platos</a>
+                            {# <a href="index.html#reservation">Reservation</a> #}
+                            <a href="#restaurantes">Restaurantes</a>
+                            <a href="#reservation">Contacto y reserva</a>
+                        </nav>
+                    </div>
+                    <!-- /footer nav -->
+
+                </div>
+                <!-- /row -->
+
+            </div>
+            <!-- /container -->
+
+        </footer>
+        <!-- /Footer -->
+
+        <!-- Ventanas modales visualizar mapas -->
+        <!-- Ribadesella -->
+        <div id="ribadesella" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Restaurante en Ribadesella</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="ytb-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d430.47564393353736!2d-5.058725903250854!3d43.46303127873432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd49e209e565ec05%3A0x2b6f94959c7b6c72!2sEl+Campanu!5e0!3m2!1ses!2ses!4v1524137962078" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="cangas" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Restaurante en Cangas de Onís</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="ytb-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.27820945361015!2d-5.131524242847082!3d43.35020312550735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd3621ed63fbc035%3A0xde53548e0d3c9fcb!2sRestaurante+Sidrer%C3%ADa+El+Campanu!5e0!3m2!1ses!2ses!4v1524138218490" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="oviedo" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Restaurante en Oviedo</h4>
+                    </div>
+                    <div class="modal-body">
+                        <iframe class="ytb-embed" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d431.2043829214066!2d-5.846218769848205!3d43.360591801596186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd368cef7d84b6bb%3A0x68b4b93305605cfa!2sSidreria+marisqueria+El+Campanu!5e0!3m2!1ses!2ses!4v1524138298352" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Preloader -->
+        <div id="preloader">
+            <div class="preloader">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <!-- /Preloader -->
+{% endblock %}
