@@ -1,1 +1,9 @@
 /app/templates/.cache/**/*.php
+node_modules
+array.js
+composer.json
+comose.lock
+crear.zip
+gruntfile.js
+gulpfile.js
+Restaurante.code-workspace
